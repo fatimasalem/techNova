@@ -2,20 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
-  --background: #ffffff;
+  --background: #ffffff; /* Define a single background color */
   --foreground: #171717;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --foreground: #ededed; /* Only foreground changes in dark mode */
   }
 }
 
 body {
   color: var(--foreground);
-  background: var(--background);
+  background: #ffffff; /* Override background to stay constant */
   font-family: Arial, Helvetica, sans-serif;
 }
