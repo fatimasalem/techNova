@@ -24,10 +24,10 @@ const Pricing = () => {
       {/* Header */}
       <div className="mx-auto max-w-4xl text-center">
         <h2 className="text-base font-semibold text-indigo-600">Pricing Plans</h2>
-        <p className="mt-2 text-5xl font-semibold tracking-tight text-gray-900 dark:text-white sm:text-6xl">
+        <p className="mt-2 text-5xl font-semibold tracking-tight text-gray-900 sm:text-6xl">
           Flexible Plans for Every Need
         </p>
-        <p className="mx-auto mt-6 max-w-2xl text-lg text-gray-600 dark:text-gray-300">
+        <p className="mx-auto mt-6 max-w-2xl text-lg text-gray-600">
           Choose a plan that scales with your business and empowers your team to achieve their goals.
         </p>
       </div>

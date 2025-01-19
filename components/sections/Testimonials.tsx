@@ -11,7 +11,7 @@ const TestimonialCard = ({ description, className, user }: TestimonialsProps & {
         src={user?.avatar.src}
       />
       <div className='flex flex-col'>
-        <p className='font-bold'>{user?.name}</p>
+        <p className='font-bold text-black'>{user?.name}</p>
         <p className='text-xs text-gray-800'>{user?.role}</p>
       </div>
     </div>
